@@ -1,7 +1,19 @@
 $primary-color : #333;
 $primary-background: lightgray;
+$head-background: purple;
+$content-background: lightgreen;
+$foot-background: pink;
 
 body{
     background-color: $primary-background;
     color: $primary-color;
+}
+.head{
+    background-color: $head-background;
+}
+.content{
+    background-color: $content-background;
+}
+.foot{
+    background-color: $foot-background;
 }

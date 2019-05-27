@@ -16,8 +16,8 @@ $.path.tasks.forEach(taskPath => {
 
 // start gulp
 $.gulp.task('default', $.gulp.series(
-    // TODO: back scripts:lib and scripts and img:dev
-    $.gulp.parallel('pug', 'sass', 'img:dev'),
+    // TODO: 'scripts:lib'
+    $.gulp.parallel('pug', 'sass', 'img:dev', 'svg', 'scripts'),
     $.gulp.parallel('watch', 'serve')
 ));
 

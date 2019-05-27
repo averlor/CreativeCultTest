@@ -1,6 +1,6 @@
 module.exports = () => {
     $.gulp.task('svg', () => {
-        return $.gulp.src('src/static/img/svg/*.svg')
+        return $.gulp.src('./src/static/img/svg/*.svg')
             .pipe($.glp.svgmin({
                 js2svg: {
                     pretty: true
@@ -10,7 +10,7 @@ module.exports = () => {
                 run: ($) => {
                     $('[fill]').removeAttr('fill');
                     $('[stroke]').removeAttr('stroke');
-                    $('[style]').removeAttr('style');
+                    // $('[style]').removeAttr('style');
                 },
                 parserOptions: {xmlMode: true}
             }))
@@ -22,6 +22,6 @@ module.exports = () => {
                     }
                 }
             }))
-            .pipe($.gulp.dest('dist/img/svg/'));
+            .pipe($.gulp.dest('dist/img/svg'));
     })
 }

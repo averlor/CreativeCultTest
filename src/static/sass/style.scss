@@ -1,19 +1,33 @@
-$primary-color : #333;
-$primary-background: lightgray;
-$head-background: purple;
-$content-background: lightgreen;
-$foot-background: pink;
+// import fonts
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
-body{
-    background-color: $primary-background;
-    color: $primary-color;
+// variables
+$primary-background: #fff;
+$primary-font: 'Exo 2', sans-serif;
+$primary-font-size: 16px;
+$primary-color: #262626;
+$primary-line-height: 19px;
+$content-slider-background: #fafafa;
+$footer-height: 20px;
+
+// reset style
+@import 'reset';
+
+// main style
+
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+	@import 'medium';
 }
-.head{
-    background-color: $head-background;
+
+@media all and (min-width: 960px) and (max-width: 1249px) {
+	@import 'xmedium';
 }
-.content{
-    background-color: $content-background;
+
+@media all and (min-width: 1250px) and (max-width: 1800px) {
+	@import 'large';
 }
-.foot{
-    background-color: $foot-background;
+
+@media all and (min-width: 1800px) {
+	@import 'xlarge';
 }

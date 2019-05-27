@@ -1,9 +1,9 @@
 module.exports = () => {
-    // FIXME: remove code
     // $.gulp.task('scripts:lib', () => {
     //     return $.gulp.src([
-    //         './node_modules/jquery/dist/jquery.min.js',
-    //         './node_modules/slick-carousel/slick/slick.min.js'
+    //         './src/static/js/js/uikit.min.js',
+    //         './src/static/js/js/components/slideshow-fx.min.js',
+    //         './src/static/js/js/components/slideshow.min.js'
     //     ])
     //         .pipe($.glp.concat('libs.min.js'))
     //         .pipe($.gulp.dest('dist/js'))

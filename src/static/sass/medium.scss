@@ -1,4 +1,4 @@
-// 768px -960px
+// 768px -959px
 body{
     background-color: $primary-background;
 	box-sizing: border-box;
@@ -29,11 +29,13 @@ body{
 		// }
 	}
 	.head__p{
-		margin: auto 0;
-		text-align: center;
-		font-weight: 600;
-		line-height: 19px;
+		display: none;
 	}
+	// .head__p__phone{}
+	// .head__p__anchor{
+	// 	width: 48px;
+	// 	height: 48px;
+	// }
 }
 .content{
 	color: #ccc;
@@ -121,6 +123,7 @@ body{
 					font-weight: bold;
 					font-size: 16px;
 					line-height: 24px;
+					cursor: pointer;
 				}
 			}
 		}

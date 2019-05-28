@@ -23,24 +23,16 @@ body{
 			width: 50%;
 			height: 50%;
 		}
-		// .glass{
-		// 	width: 24px;
-		// 	height: 24px;
-		// }
 	}
 	.head__p{
 		margin: auto 0;
 		text-align: center;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
 		line-height: 17px;
 	}
-	.head__p__phone{
-		display: none;
-	}
-	.head__p__anchor{
-		display: none;
-	}
+	.head__p__phone{display: none;}
+	.head__p__anchor{display: none;}
 }
 .content{
 	color: #ccc;
@@ -66,7 +58,7 @@ body{
 		}
 	}
 
-	.content__main{
+	.content__main__slider{
 		position: relative;
 
 		.content__main__img{

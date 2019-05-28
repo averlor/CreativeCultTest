@@ -6,7 +6,7 @@ body{
 	font-size: $primary-font-size;
 }
 .wrapper{
-	width: 90%;
+	width: 80%;
 	height: 100vh;
 	margin: 0 auto 0 auto;
 }
@@ -23,19 +23,10 @@ body{
 			width: 50%;
 			height: 50%;
 		}
-		// .glass{
-		// 	width: 24px;
-		// 	height: 24px;
-		// }
 	}
 	.head__p{
 		display: none;
 	}
-	// .head__p__phone{}
-	// .head__p__anchor{
-	// 	width: 48px;
-	// 	height: 48px;
-	// }
 }
 .content{
 	color: #ccc;
@@ -43,11 +34,14 @@ body{
 	.content__aside__text1{
 		font: 900 42px/50px $primary-font;
 		color: $primary-color;
-		margin: 20% 0 10% 0; 
+		margin: 10% auto 5% auto; 
 
 	}
 	.content__aside__text2{
+		width: 80%;
+		margin: 0 auto;
 		color:#767676;
+		margin-bottom: 5%;
 
 		.content__aside__text2__li{
 			font-size: 14px;
@@ -63,17 +57,18 @@ body{
 
 	.content__main{
 		position: relative;
-
+		
 		.content__main__img{
 			position: absolute;
-			top: 5%;
+			top: 100%;
+			left: 10%;
 			z-index: 2;
 		}
 
 		.content__main__description{
 			position: absolute;
-			top: 0;
-			right: 0;
+			top: 3500%;
+			right: 10%;
 			width: 70%;
 			background-color: $content-slider-background;
 			z-index: 1;
@@ -130,7 +125,7 @@ body{
 	}
 
 	.content__resources{
-		margin-top: 5%;
+		margin-top: 200%;
 
 		.content__resources__p{
 			font-size: 16px;

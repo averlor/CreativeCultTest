@@ -1,13 +1,8 @@
 # CreativeCultTest
-Тестовое задание: проверка навыков верстки. Ниже представлен скрин сайта и ссылка на демо-версию
-
+Тестовое задание: проверка навыков верстки. Ниже представлен скрин сайта 
 
 <p align="center">
-  <a href="http://averlor-todo.surge.sh/" target="_blank">
-    <img src="./dist/img/demo.png">
-    <br>
-    Live Demo
-  </a>
+  <img src="./dist/img/demo.png">
 </p>
 
 

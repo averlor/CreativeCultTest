@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="http://averlor-todo.surge.sh/" target="_blank">
-    <img src="public/todo.png">
+    <img src="./dist/img/demo.png">
     <br>
     Live Demo
   </a>

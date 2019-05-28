@@ -65,10 +65,10 @@ div(class="content__main__slider")
                                 p(class="details__ch__2") 70 мм (+- 2мм)
 
                         button(type="button" id="btn" class="details__ch__btn") Заказать прямо сейчас
-                        
+
     a(href="" class="slider__prev" id="prev") &#10094;
-    a(href="" class="slider__next") &#10095;
+    a(href="" class="slider__next" id="next") &#10095;
 
 div(class="content__main__slider-dots")
-    span(slider-dots__item)
-    span(slider-dots__item)  
+    span(slider-dots__item onclick="currentSlide(1)")
+    span(slider-dots__item onclick="currentSlide(2)")  
